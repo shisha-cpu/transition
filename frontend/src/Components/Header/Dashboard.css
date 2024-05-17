@@ -1,0 +1,126 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.transaction-form {
+    margin-bottom: 40px;
+}
+
+.transaction-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.transaction-history {
+    margin-top: 40px;
+}
+
+.transaction-history h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.chart-bar {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+    background-color: #007bff;
+    /* Цвет доходов */
+}
+
+.chart-bar.expense {
+    background-color: #dc3545;
+    /* Цвет расходов */
+}
+
+.chart-label {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.chart-value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
